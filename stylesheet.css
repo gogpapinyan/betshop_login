@@ -1,0 +1,31 @@
+#MainWindow {
+    background-color: rgb(24, 18, 51);
+    min-width: 380;
+    border-radius: 50px;
+    
+}
+#TitleLabel {
+    color: rgba(230, 225, 225, 0.918);
+    font-size: 18pt;
+    font: "Comic Sans MS", cursive, sans-serif;
+    
+}
+#loginCopyButton, #cancelButton, #passwordCopyButton {
+    max-width: 110;
+    min-height: 45;
+    font: 14px "Comic Sans MS", cursive, sans-serif;
+}
+
+#infoTitle {
+    color: rgba(230, 225, 225, 0.918);
+    font: 14px "Comic Sans MS", cursive, sans-serif;
+}
+#infoTextEdit {
+    font: 16px "Comic Sans MS", cursive, sans-serif;
+}
+#comboBoxWidget {
+    min-height: 40px;
+    border-radius: 5px;
+    font: italic 16px "Comic Sans MS", cursive, sans-serif;
+
+}
