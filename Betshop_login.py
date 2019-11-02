@@ -17,7 +17,7 @@ class App(QtWidgets.QWidget):
 
         self.programPath = path.dirname(path.realpath(__file__))
         self.setObjectName("MainWindow")
-        self.setWindowTitle('BetshopClient Test Login')
+        self.setWindowTitle('BetshopClient Login')
         self.setStyleSheet(self.createStyleSheet('stylesheet.css'))
         self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         self.setLayout(self.createLayout())
